@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #FFF;
+}
+
+img {
+
+}
+img:hover {
+  opacity: 1;
+}
+.linkedin {
+  background-color: #007FB1;
+  width: 10em;
+  height: 10em;
+  opacity: .7;
+  transition: opacity 0.4s ease;       
+  border-radius: 999px;
+  margin: 2%;
+}
+.github {
+  background-color: #4183C4;
+  width: 10em;
+  height: 10em;
+  opacity: .7;
+  transition: opacity 0.4s ease;       
+  border-radius: 999px;
+  margin: 2%;
+}
+.blog {
+  background-color: #FFA000;
+  width: 10em;
+  height: 10em;
+  opacity: .7;
+  transition: opacity 0.4s ease;       
+  border-radius: 999px;
+  margin: 2%;
+}
+.twitter {
+  background-color: #00ACED;
+  width: 10em;
+  height: 10em;
+  opacity: .7;
+  transition: opacity 0.4s ease;       
+  border-radius: 999px;
+  margin: 2%;
+}
+.title {
+  color: #FFA000;
+  font-size: 4em;    
+  opacity: .7;
+  margin-top: 1%;    
+}
+.subtitle {
+  margin-top: 1%;
+  color: #40D1FF;
+  font-size: 2.5em;
+  opacity: .6;
+  transition: opacity 0.2s ease;
+}
+.subtitle:hover {
+  opacity: 1;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+#links {
+  margin-top: 10%;    
+  text-align: center;
+}
+#text {
+  background-color: #FFF;
+  font: 4em Helvetica;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
