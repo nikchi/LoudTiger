@@ -12,6 +12,7 @@ img {
 img:hover {
   opacity: 1;
 }
+
 .linkedin {
   background-color: #007FB1;
   width: 10em;
@@ -20,6 +21,9 @@ img:hover {
   transition: opacity 0.4s ease;       
   border-radius: 999px;
   margin: 2%;
+}
+.linkedinc {
+    color: #007FB1;
 }
 .github {
   background-color: #4183C4;
@@ -30,6 +34,9 @@ img:hover {
   border-radius: 999px;
   margin: 2%;
 }
+.githubc {
+    color: #4183C4;
+}
 .blog {
   background-color: #FFA000;
   width: 10em;
@@ -38,6 +45,9 @@ img:hover {
   transition: opacity 0.4s ease;       
   border-radius: 999px;
   margin: 2%;
+}
+.blogc { 
+    color: #FFA000;
 }
 .twitter {
   background-color: #00ACED;
@@ -48,24 +58,29 @@ img:hover {
   border-radius: 999px;
   margin: 2%;
 }
+.twitterc {
+    color: #00ACED
+}
 .title {
   color: #FFA000;
   font-size: 4em;    
   opacity: .7;
-  margin-top: 1%;    
+  margin-top: 3%;    
 }
 .subtitle {
   margin-top: 1%;
   color: #40D1FF;
   font-size: 2.5em;
   opacity: .6;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.6s ease;
 }
-.subtitle:hover {
-  opacity: 1;
+.subtitle:hover{
+    opacity: 1;
+    transition: opacity 0.4s ease;
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 a:visited {
     color: inherit;
@@ -80,14 +95,18 @@ a:visited {
   font-style: normal;
   font-size: 12px;
   text-align: center;
-  
+    margin: 0 auto;
+    width: 40em;
 }
-
-
-
-
-
-
-
+.descbot {
+    opacity: 0;
+    font-size: 1.4em;
+    margin-top: 0em;
+    transition: opacity 0.6s ease
+}
+.sub:hover + .descbot {
+    opacity: 1;
+    transition: opacity 0.6s ease
+}
 
 

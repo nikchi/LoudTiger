@@ -1,0 +1,89 @@
+* { 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    
+    font:1em Helvetica;
+}
+a {
+    float: left;
+}
+
+.tblog {
+    height: 10em;
+    width: 10em;
+    opacity: .7;
+    margin: 1em;
+    border-radius: 999px;
+}
+
+.tblog:hover {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.blogh:hover + .tblogh {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.tblogh {
+    opacity: 0;
+}
+
+#lks {
+    width: 48em;
+    height: 12em;
+    margin: 0 auto;
+    padding: inherit;
+    margin-top: 10%;
+}
+
+/* PREV CSS 
+#text {
+    width: 48em;
+    margin: 0 auto;
+  background-color: #FFF;
+  font: 4em Helvetica;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+    
+}
+.descbot {
+    opacity: 0;
+    font-size: 1.4em;
+    margin-top: 0em;
+    transition: opacity 0.6s ease
+}
+.sub:hover + .descbot {
+    opacity: 1;
+    transition: opacity 0.6s ease
+}
+.subtitle {
+  margin-top: 1%;
+  color: #40D1FF;
+  font-size: 2.5em;
+  opacity: .6;
+  transition: opacity 0.6s ease;
+}
+.subtitle:hover{
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+.title {
+  color: #FFA000;
+  font-size: 4em;    
+  opacity: .7;
+  margin-top: 1%;    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}*/
